@@ -1,0 +1,98 @@
+::ng-deep.bs-datepicker-container {
+  padding: 11px;
+}
+
+::ng-deep.bs-calendar-container {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0 !important;
+}
+
+::ng-deep.bs-datepicker-container .bs-datepicker-head * {
+  color: #0061a0;
+  text-transform: capitalize;
+}
+
+::ng-deep.bs-datepicker-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  padding: 0;
+  text-align: center;
+  min-height: 62px;
+  min-width: 0px;
+}
+
+::ng-deep.bs-datepicker-buttons {
+  padding: 0;
+}
+
+::ng-deep .bs-datepicker-head button.current {
+  border-radius: 0;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  padding: 0;
+}
+
+::ng-deep.bs-datepicker-head button.next,
+::ng-deep.bs-datepicker-head button.previous {
+  border-radius: 0;
+}
+
+::ng-deep .bs-datepicker-head .previous {
+  float: left;
+}
+
+::ng-deep .bs-datepicker-head .previous > span {
+  color: #0090da;
+}
+
+::ng-deep .bs-datepicker-head .next {
+  float: right;
+}
+
+::ng-deep .bs-datepicker-head .next > span {
+  color: #0090da;
+}
+
+::ng-deep.bs-datepicker-body {
+  border: none;
+  min-height: 0px;
+  min-width: 0px;
+  padding: 0;
+  margin: 0px !important;
+}
+
+::ng-deep.bs-datepicker-body table > thead {
+  display: none;
+}
+
+::ng-deep.bs-datepicker-body table td span {
+  border-radius: 0;
+  margin: 0;
+}
+
+::ng-deep.bs-datepicker-body table.days span {
+  width: 30px;
+  height: 26px;
+}
+
+::ng-deep.bs-datepicker-body table.months td span {
+  border-radius: 0;
+}
+
+::ng-deep.bs-datepicker-body table > tbody > tr > td > span {
+  color: #333;
+  font-size: 12px !important;
+  font-family: Arial, sans-serif;
+  border-radius: 0;
+}
+
+::ng-deep.bs-datepicker-body table > tbody > tr > td > span.selected {
+  color: white;
+  background-color: #2ba6cb !important;
+  font-size: 12px !important;
+  font-family: Arial, sans-serif;
+}
+
+::ng-deep.bs-datepicker-body table > tbody > tr > td > span.is-other-month {
+  color: #999 !important;
+}
